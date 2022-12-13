@@ -4,6 +4,7 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "bootstrap/dist/css/bootstrap.css";
+import Weather from "./Weather";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -11,6 +12,7 @@ root.render(
     <div className="container">
       <h1>Weather App</h1>
       <App />
+      <Weather />
       <p>
         <a href="https://github.com/diana-budkevych/weather-react-week-4-test">
           {" "}
