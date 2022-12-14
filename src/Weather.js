@@ -31,7 +31,7 @@ export default function Weather() {
               alt="cloudy"
               className="float-left"
             />{" "}
-            <div className="className=" float-left>
+            <div className="float-left">
               <span className="temperature">6</span>{" "}
               <span className="unit">C</span>
             </div>
