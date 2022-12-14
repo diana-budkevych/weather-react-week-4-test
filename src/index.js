@@ -13,13 +13,15 @@ root.render(
       <h1>Weather App</h1>
       <App />
       <Weather />
-      <p>
-        <a href="https://github.com/diana-budkevych/weather-react-week-4-test">
-          {" "}
-          Open-source{" "}
-        </a>{" "}
-        code by Diana Budkevych
-      </p>
+      <footer>
+        <p>
+          <a href="https://github.com/diana-budkevych/weather-react-week-4-test">
+            {" "}
+            Open-source{" "}
+          </a>{" "}
+          code by Diana Budkevych
+        </p>
+      </footer>
     </div>
   </React.StrictMode>
 );
