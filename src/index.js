@@ -12,7 +12,7 @@ root.render(
     <div className="container">
       <h1>Weather App</h1>
 
-      <Weather />
+      <Weather defaultCity="Kyiv" />
       <footer>
         <p>
           <a href="https://github.com/diana-budkevych/weather-react-week-4-test">
