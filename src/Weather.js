@@ -1,5 +1,6 @@
 import React from "react";
 import "./Weather.css";
+import axios from "axios";
 
 export default function Weather() {
   return (
@@ -25,7 +26,7 @@ export default function Weather() {
       </ul>
       <div className="row">
         <div className="col-6">
-          <div className="clearfix">
+          <div className="clearfix d-flex">
             <img
               src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
               alt="cloudy"
