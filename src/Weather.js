@@ -7,12 +7,12 @@ export default function Weather(props) {
   function handleResponse(response) {
     setWeatherData({
       ready: true,
-      temperature: response.data.main.temp,
+      temperature: response.data.main.temperature.current,
       wind: response.data.wind.speed,
       city: response.data.name,
-      humidity: response.data.main.humidity,
-      iconUrl: "https://ssl.gstatic.com/onebox/weather/64/sunny.png",
-      description: response.data.weather[0].description,
+      humidity: response.data.temperature.humidity,
+      iconUrl: response.data.condition.icon_url,
+      description: response.data.condition.description,
       date: "Wednesday, 07.00",
     });
   }
